@@ -5,5 +5,8 @@
     "description": "This is a basic extension that interacts with the NASA API to fetch the picture of the day. Extensions run as mini web-servers and have their own threads in the browser.",
     "icons": {
         "128": "icons/logo.png"
+    },
+    "action": {
+        "default_popup": "popup/popup.html"
     }
 }
