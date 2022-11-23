@@ -1,0 +1,9 @@
+{
+    "name": "Extension to view NASA Picture of the day",
+    "version": "0.0.0.1",
+    "manifest_version": 3,
+    "description": "This is a basic extension that interacts with the NASA API to fetch the picture of the day. Extensions run as mini web-servers and have their own threads in the browser.",
+    "icons": {
+        "128": "icons/logo.png"
+    }
+}
