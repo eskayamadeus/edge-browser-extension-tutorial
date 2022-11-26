@@ -1,4 +1,5 @@
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
+    // alert('asdfgggg')
     $("body").prepend(
         `<img  src="${request.url}" id="${request.imageDivId}"
                class="slide-image" /> `
